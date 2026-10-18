@@ -1,0 +1,71 @@
+name: Suggest an app
+description: Submit your macOS app, CLI tool, or editor plugin for review.
+title: "Add: "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: App name
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Official website or maintainer repository
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Proposed list and category
+      placeholder: README.md / Utilities / Menu Bar Tools
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Proposed entry and why it belongs
+      description: Include a factual one-sentence description and explain its usefulness.
+    validations:
+      required: true
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: Pricing model
+      options:
+        - Free
+        - Freemium
+        - Paid once
+        - Subscription
+        - Trial only
+        - Other (explain below)
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: macOS compatibility and installation
+      description: Include minimum macOS version, Apple silicon or Intel support, installation link, and official sources. Explain paid features or license details here as needed.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source-code repository and license (if open source)
+  - type: input
+    id: affiliation
+    attributes:
+      label: Your affiliation
+      description: Tell us if you develop, work for, or promote this app. Otherwise enter None.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the lists and existing issues and PRs for duplicates.
+          required: true
+        - label: I read CONTRIBUTING.md and used official links without referrals.
+          required: true

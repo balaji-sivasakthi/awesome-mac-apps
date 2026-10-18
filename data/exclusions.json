@@ -1,0 +1,29 @@
+{
+  "reason": "Maintainer-requested exclusion of competing notch companions. Preserve NotchDude; do not reintroduce these entries during consolidation.",
+  "app_names": [
+    "NotchMuse",
+    "Sonar",
+    "Agent Island",
+    "Atoll",
+    "CodexIsland",
+    "Boring Notch",
+    "DynamicHorizon",
+    "HeyMate",
+    "ILoveNotch",
+    "NotchNook",
+    "Notchly",
+    "Peninsula",
+    "Brink",
+    "Metrune"
+  ],
+  "new_entry_keywords": [
+    "notch",
+    "dynamic island",
+    "dynamic peninsula"
+  ],
+  "allowed_app_names": [
+    "NotchDude",
+    "NotchOTP",
+    "OnlySwitch"
+  ]
+}

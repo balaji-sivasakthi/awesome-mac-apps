@@ -1,0 +1,17 @@
+name: Correct an entry
+description: Report a broken link, discontinued app, or inaccurate description.
+title: "Fix: "
+body:
+  - type: input
+    id: app
+    attributes:
+      label: App or section
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What needs to change?
+      description: Include an official source supporting the correction.
+    validations:
+      required: true
