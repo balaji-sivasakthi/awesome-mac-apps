@@ -20,5 +20,6 @@ Link official sources supporting the description, compatibility, pricing, and an
 - [ ] Used a four-column directory row with a factual description, availability, and resources in the appropriate category.
 - [ ] Placed the new entry alphabetically without reordering unrelated entries.
 - [ ] Used official links without tracking or referrals and checked them manually.
-- [ ] Ran `python3 scripts/check_docs.py` and `git diff --check`.
+- [ ] Rebuilt the marketplace catalog with `python3 marketplace/scripts/build-catalog.py` and committed `marketplace/dist/catalog.json`.
+- [ ] Ran `python3 marketplace/scripts/check-site.py`, `python3 scripts/check_docs.py`, and `git diff --check`.
 - [ ] Understand catalog additions are licensed under CC BY 4.0.
