@@ -1,9 +1,10 @@
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
-import re,json,hashlib,html
+import re,json,hashlib,html,sys
 ROOT=Path(__file__).resolve().parents[2]
 OUT=Path(__file__).resolve().parents[1]/'dist'
-apps=[];by_name={};by_url={}
+apps=[];by_name={};by_url={};listings=0
 def clean_url(url):
  p=urlsplit(url)
  tracking={'via','ref','referrer','aff','affiliate','affid','pt','ct','mt','campaign','cid','ls'}
@@ -24,6 +25,7 @@ for filename,kind in [('README.md','App'),('command-line-apps.md','CLI'),('edito
   if not re.match(r'^\| \[.*?\]\(https?://',line):continue
   cols=re.split(r'(?<!\\)\|',line)[1:-1]
   if len(cols)!=4:continue
+  listings+=1
   m=re.match(r'\s*\[(.*?)\]\((https?://[^)]+)\)',cols[0]);name,url=m.groups();name=plain(name);url=clean_url(url)
   if name=='Rectangle-app':name='Rectangle';url='https://rectangleapp.com/'
   if name=='Ghostty':url='https://ghostty.org/'
@@ -43,5 +45,14 @@ for filename,kind in [('README.md','App'),('command-line-apps.md','CLI'),('edito
    continue
   item={'id':hashlib.sha1((name+url).encode()).hexdigest()[:12],'name':name,'url':url,'description':plain(cols[1]),'availability':plain(cols[2]),'source':source[1] if source else None,'store':store[1] if store else None,'native':'Native' in cols[3],'category':group,'categories':[section],'kind':kind}
   apps.append(item);by_name[norm]=item;by_url[canonical(url)]=item
-(OUT/'catalog.json').write_text(json.dumps({'apps':apps,'updated':'October 18, 2026','listings':2825},ensure_ascii=False,separators=(',',':')))
-print(f'Built {len(apps)} distinct app/tool/plugin records from 2,825 listings.')
+payload={'apps':apps,'updated':date.today().strftime('%B %-d, %Y'),'listings':listings}
+catalog_path=OUT/'catalog.json'
+if '--check' in sys.argv:
+ current=json.loads(catalog_path.read_text())
+ if current.get('apps')!=apps or current.get('listings')!=listings:
+  print('marketplace/dist/catalog.json is behind the Markdown lists. Run: python3 marketplace/scripts/build-catalog.py',file=sys.stderr)
+  sys.exit(1)
+ print(f'Catalog is current: {len(apps)} distinct records from {listings:,} listings.')
+else:
+ catalog_path.write_text(json.dumps(payload,ensure_ascii=False,separators=(',',':')))
+ print(f'Built {len(apps)} distinct app/tool/plugin records from {listings:,} listings.')

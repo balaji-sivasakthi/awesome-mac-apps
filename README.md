@@ -3143,7 +3143,7 @@ Choose official downloads and support the people building the apps. If a listing
 
 ## Contributing
 
-Built an app, tool, or plugin for Mac? I'd like to hear about it. Read the [submission guide](CONTRIBUTING.md), [suggest an app](https://github.com/balaji-sivasakthi/awesome-mac-apps/issues/new?template=app-suggestion.yml), or send a pull request. Keep the description short, explain what’s free or paid, and let me know if you’re involved with the project.
+Built an app, tool, or plugin for Mac? I'd like to hear about it. Read the [submission guide](CONTRIBUTING.md), [suggest an app](https://github.com/balaji-sivasakthi/awesome-mac-apps/issues/new?template=app-suggestion.yml), or send a pull request. Keep the description short, explain what’s free or paid, and let me know if you’re involved with the project. List changes also need a rebuilt [marketplace catalog](marketplace/README.md#refresh-the-app-catalog) in the same pull request, or the website will not show the new entry.
 
 ## License
 

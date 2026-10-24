@@ -16,7 +16,7 @@ The site uses plain HTML, CSS, and JavaScript. No package installation or build 
 
 ## Refresh the app catalog
 
-After editing the Markdown app lists, run:
+The site lists whatever is in `marketplace/dist/catalog.json`. After editing `README.md`, `command-line-apps.md`, or `editor-plugin.md`, regenerate that file and commit it with the list change. Pull requests that skip this step do not update the marketplace. From the repository root, run:
 
 ```sh
 python3 marketplace/scripts/build-catalog.py

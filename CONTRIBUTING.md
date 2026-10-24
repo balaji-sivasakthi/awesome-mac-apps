@@ -30,7 +30,16 @@ I’ll use these details to review your app and prepare an entry if it fits. Ope
 3. Edit the appropriate English list: `README.md` for apps, `command-line-apps.md` for CLI tools, or `editor-plugin.md` for editor extensions.
 4. Choose the closest existing category and place your entry alphabetically among comparable entries. Keep the change focused on one app; avoid reordering unrelated imported entries.
 5. Add a four-column table row with the app link, a short description, availability, and useful project links. Use official HTTPS URLs without tracking or referral parameters.
-6. Run `python3 scripts/check_docs.py` and `git diff --check` from the repository root. Manually open the links you add.
+6. Rebuild the marketplace catalog. The website reads `marketplace/dist/catalog.json`, so a Markdown-only change does not show up on the site. From the repository root, run:
+
+   ```sh
+   python3 marketplace/scripts/build-catalog.py
+   python3 marketplace/scripts/check-site.py
+   python3 scripts/check_docs.py
+   git diff --check
+   ```
+
+   Commit the regenerated `marketplace/dist/catalog.json` in the same pull request as the list change. Manually open the links you add.
 7. Commit your change, push your branch to your fork, and open a pull request targeting this repository's `main` branch.
 8. Complete the PR template, including compatibility, pricing, sources, and affiliation. Respond to any review feedback.
 
@@ -62,6 +71,8 @@ Avoid exact prices and version numbers unless necessary. Don't make unsupported 
 ## Review criteria
 
 I look for a working Mac download, a clear description, the right category, and honest details about pricing and affiliation. Explain what your app helps someone do and link to the official information. A screenshot is welcome if it makes the app easier to understand. Listings are editorial selections; inclusion doesn’t mean I’ve audited the app.
+
+A merged list change is not live on the marketplace until `marketplace/dist/catalog.json` is regenerated and committed. Pull requests that add, edit, or remove an entry need that catalog update in the same change.
 
 ## Corrections and discontinued apps
 
