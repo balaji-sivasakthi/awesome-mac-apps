@@ -2595,6 +2595,7 @@ Tools for backing up files, syncing preferences, and restoring data.
 | [iCMD](https://icmd.app) | Global fuzzy menu search with Vim-style navigation. | See website | [Website](https://icmd.app) |
 | [Karabiner-Elements](https://karabiner-elements.pqrs.org/) | Remap keys and customize keyboard behavior on macOS. | Free option | [Website](https://karabiner-elements.pqrs.org/) · [Source](https://github.com/pqrs-org/Karabiner-Elements) |
 | [Kaskas](https://github.com/ramazanberkozbek/kaskas) | Open-source break reminder and focus tracker that adapts to typing and meetings. | See website | [Website](https://github.com/ramazanberkozbek/kaskas) · [Source](https://github.com/ramazanberkozbek/kaskas) |
+| [Kepo](https://kepo.ai/) | Shortcut panel that turns websites, RSS feeds, and status pages into desktop widgets. | Free + Pro | [Website](https://kepo.ai/) |
 | [Keyboard Cowboy](https://github.com/zenangst/KeyboardCowboy) | The missing keyboard shortcut utility for macOS. | Free option | [Website](https://github.com/zenangst/KeyboardCowboy) · [Source](https://github.com/zenangst/KeyboardCowboy) |
 | [Keyboard Maestro](https://www.keyboardmaestro.com) | Automate repetitive tasks with triggers and macros. | See website | [Website](https://www.keyboardmaestro.com) |
 | [Keytty](https://keytty.com) | App to keep your hands on the keyboard. Move, click, scroll, drag and more with a few strokes. | See website | [Website](https://keytty.com) |
