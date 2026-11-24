@@ -963,6 +963,7 @@ Each category uses the same four columns: **App**, **Purpose**, **Availability**
 | [Vectr](https://vectr.com/) | Free graphics editor used to create vector graphics easily and intuitively. | Free option | [Website](https://vectr.com/) |
 | [WatermarkFlow](https://github.com/wlzh/watermark-flow-mac) | Menu bar tool that adds watermarks to clipboard images and copies the result back ready to paste. | See website | [Website](https://github.com/wlzh/watermark-flow-mac) · [Source](https://github.com/wlzh/watermark-flow-mac) |
 | [WebPonize](https://github.com/1000ch/webponize) | WebPonize is a macOS App for converting PNG, JPEG, animated (or not) GIF images into WebP. | See website | [Website](https://github.com/1000ch/webponize) · [Source](https://github.com/1000ch/webponize) |
+| [XShots](https://selfark.com/xshots) | Design, localize, and batch-export app store screenshot sets on a Mac. | Trial | [Website](https://selfark.com/xshots) · [App Store](https://apps.apple.com/us/app/xshots-app-screenshot-maker/id6789394140) · Native |
 
 ### Prototyping and Mind-Mapping Tools
 
