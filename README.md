@@ -6,7 +6,7 @@ Mac apps for everyday work, creative projects, and development — collected in 
 
 [![Sponsor balaji-sivasakthi](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?logo=githubsponsors&logoColor=white&style=for-the-badge)](https://github.com/sponsors/balaji-sivasakthi)
 
-Browse **2,825 listings** across Mac apps, terminal tools, and editor plugins. I'm building this collection to make useful Mac software easier to find. Browse by what you want to do, explore a few options, and follow the official links to learn more. Free apps, open-source projects, and paid tools all have a place here.
+Browse **2,839 listings** across Mac apps, terminal tools, and editor plugins. I'm building this collection to make useful Mac software easier to find. Browse by what you want to do, explore a few options, and follow the official links to learn more. Free apps, open-source projects, and paid tools all have a place here.
 
 Built something for Mac? [Submit your app](CONTRIBUTING.md#submit-your-app). Found a broken link or an app worth adding? Open an issue or send a pull request.
 
