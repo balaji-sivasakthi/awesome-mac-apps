@@ -964,6 +964,7 @@ Each category uses the same four columns: **App**, **Purpose**, **Availability**
 | [Vectr](https://vectr.com/) | Free graphics editor used to create vector graphics easily and intuitively. | Free option | [Website](https://vectr.com/) |
 | [WatermarkFlow](https://github.com/wlzh/watermark-flow-mac) | Menu bar tool that adds watermarks to clipboard images and copies the result back ready to paste. | See website | [Website](https://github.com/wlzh/watermark-flow-mac) · [Source](https://github.com/wlzh/watermark-flow-mac) |
 | [WebPonize](https://github.com/1000ch/webponize) | WebPonize is a macOS App for converting PNG, JPEG, animated (or not) GIF images into WebP. | See website | [Website](https://github.com/1000ch/webponize) · [Source](https://github.com/1000ch/webponize) |
+| [XShots](https://selfark.com/xshots) | Design, localize, and batch-export app store screenshot sets on a Mac. | Trial | [Website](https://selfark.com/xshots) · [App Store](https://apps.apple.com/us/app/xshots-app-screenshot-maker/id6789394140) · Native |
 
 ### Prototyping and Mind-Mapping Tools
 
@@ -1815,6 +1816,7 @@ Tools for backing up files, syncing preferences, and restoring data.
 | --- | --- | --- | --- |
 | [InVesalius](https://github.com/invesalius/invesalius3) | 3D medical imaging reconstruction software | See website | [Website](https://github.com/invesalius/invesalius3) · [Source](https://github.com/invesalius/invesalius3) |
 | [Leafy](https://leafyapp.uk/) | Look up any word on screen with ⌥A, including in PDFs and images, and save it to a searchable local library. | Free option | [Website](https://leafyapp.uk/) |
+| [NearWord](https://nearword.app/) | Point at any word on screen, even in a game or a scanned PDF, and see what it means right next to it. | Free + Pro | [Website](https://nearword.app/) |
 | [Wokabulary](https://wokabulary.com/) | Collect, practice, and organize your individual foreign language vocabulary. | See website | [Website](https://wokabulary.com/) · [App Store](https://apps.apple.com/app/apple-store/id1667619825?platform=mac) |
 
 ## Finance
