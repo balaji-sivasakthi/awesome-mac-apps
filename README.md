@@ -6,7 +6,7 @@ Mac apps for everyday work, creative projects, and development — collected in 
 
 [![Sponsor balaji-sivasakthi](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?logo=githubsponsors&logoColor=white&style=for-the-badge)](https://github.com/sponsors/balaji-sivasakthi)
 
-Browse **2,839 listings** across Mac apps, terminal tools, and editor plugins. I'm building this collection to make useful Mac software easier to find. Browse by what you want to do, explore a few options, and follow the official links to learn more. Free apps, open-source projects, and paid tools all have a place here.
+Browse **2,840 listings** across Mac apps, terminal tools, and editor plugins. I'm building this collection to make useful Mac software easier to find. Browse by what you want to do, explore a few options, and follow the official links to learn more. Free apps, open-source projects, and paid tools all have a place here.
 
 Built something for Mac? [Submit your app](CONTRIBUTING.md#submit-your-app). Found a broken link or an app worth adding? Open an issue or send a pull request.
 
@@ -1721,6 +1721,7 @@ Tools for backing up files, syncing preferences, and restoring data.
 | [Rocket](https://matthewpalmer.net/rocket/) | Makes typing emoji faster and easier using Slack-style shortcuts. | Free option | [Website](https://matthewpalmer.net/rocket/) |
 | [Touch Emoji](https://github.com/lessmess-dev/touch-emoji) | Emoji picker for MacBook Pro Touch Bar. | See website | [Website](https://github.com/lessmess-dev/touch-emoji) · [Source](https://github.com/lessmess-dev/touch-emoji) |
 | [Type2Phone](https://www.houdah.com/type2Phone/) | Use Your Mac as Keyboard for iPhone, iPad & Apple TV. | See website | [Website](https://www.houdah.com/type2Phone/) |
+| [TypeNod](https://typenod.com/) | Preview on-device translations as you type in compatible Mac text fields, then confirm to insert. | Paid once | [Website](https://typenod.com/) · Native |
 | [vChewing 唯音](https://github.com/vChewing/vChewing-macOS) | Chinese input method supporting Pinyin and Zhuyin with purpose-built dictionaries. | Free option | [Website](https://github.com/vChewing/vChewing-macOS) · [Source](https://github.com/vChewing/vChewing-macOS) |
 | [betterglobekey](https://github.com/Serpentiel/betterglobekey) | Make macOS Globe key great again! | Free option | [Website](https://github.com/Serpentiel/betterglobekey) · [Source](https://github.com/Serpentiel/betterglobekey) |
 | [InputSourcePro](https://inputsource.pro/) | Tool for automatically switching input sources by app or website. | Free option | [Website](https://inputsource.pro/) · [Source](https://github.com/runjuu/InputSourcePro) |
